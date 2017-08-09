@@ -1,7 +1,6 @@
 baseURL = "https://castelanjr.github.io"
 languageCode = "en-us"
 title = "Angelo Castelan"
-publishDir = "docs"
 
 [params]
   name = "Angelo Castelan"
