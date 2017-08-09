@@ -1,7 +1,6 @@
 baseURL = "http://castelanjr.github.io"
 languageCode = "en-us"
 title = "Angelo Castelan"
-theme = "identity"
 
 [params]
   name = "Angelo Castelan"
@@ -15,12 +14,17 @@ theme = "identity"
       name = "Angelo Castelan"
       avatar = "avatar.png"
       position = "Android dev @ We Heart It"
-      biography = "I enjoy coding and playing JRPGs, usually not at the same time"
+      _biography = "I enjoy coding and playing JRPGs, usually not at the same time"
 
 [[params.social]]
   medium = "Twitter"
   icon = "fa-twitter"
   link = "https://twitter.com/castelanjr"
+
+  [[params.social]]
+  medium = "Github"
+  icon = "fa-github"
+  link = "https://github.com/castelanjr"
 
 [[params.social]]
   title = "Instagram"
@@ -31,11 +35,6 @@ theme = "identity"
   medium = "Facebook"
   icon = "fa-facebook"
   link = "https://www.facebook.com/castelanjr"
-
-[[params.social]]
-  medium = "Github"
-  icon = "fa-github"
-  link = "https://github.com/castelanjr"
 
 [[params.social]]
   medium = "Email"
