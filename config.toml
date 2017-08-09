@@ -1,7 +1,7 @@
 baseURL = "http://castelanjr.github.io"
 languageCode = "en-us"
 title = "Angelo Castelan"
-theme = "aerial"
+theme = "identity"
 
 [params]
   name = "Angelo Castelan"
@@ -11,22 +11,33 @@ theme = "aerial"
   bg_scroll = ""
   favicon = "favicon.ico"
 
+    [params.personal]
+      name = "Angelo Castelan"
+      avatar = "avatar.png"
+      position = "Android dev @ We Heart It"
+      biography = "I enjoy coding and playing JRPGs, usually not at the same time"
+
 [[params.social]]
   medium = "Twitter"
-  icon = "twitter"
+  icon = "fa-twitter"
   link = "https://twitter.com/castelanjr"
 
 [[params.social]]
+  title = "Instagram"
+  icon = "fa-instagram"
+  link = "https://instagram.com/castelanjr"
+
+[[params.social]]
   medium = "Facebook"
-  icon = "facebook"
+  icon = "fa-facebook"
   link = "https://www.facebook.com/castelanjr"
 
 [[params.social]]
   medium = "Github"
-  icon = "github"
+  icon = "fa-github"
   link = "https://github.com/castelanjr"
 
 [[params.social]]
   medium = "Email"
-  icon = "envelope-o"
-  link = "angelo.castelanjr@gmail.com"
+  icon = "fa-envelope-o"
+  link = "mailto:angelo.castelanjr@gmail.com"
